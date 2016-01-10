@@ -9,9 +9,6 @@ import org.junit.Test;
 
 import java.util.List;
 
-/**
- * Created by buyaroff1 on 05/01/16.
- */
 public class UpdateServiceTests extends ApplicationTestCase<Application> {
     public UpdateServiceTests() {
         super(Application.class);
