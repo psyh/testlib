@@ -67,56 +67,6 @@ public class PersonsHolderTests extends ApplicationTestCase<Application> {
     }
 
     @Test
-    public void testSavePersons() {
-        /*Context context = getContext();
-        PersonGenerator personGenerator = new PersonGenerator(context);
-        PersonsHolder personsHolder = new PersonsHolder(context);
-        List<Person> persons = personGenerator.createPersons(0);
-        personsHolder.savePersons(persons);
-        List<Person> persons2 = personGenerator.createPersons(1);
-        personsHolder.savePersons(persons2);
-        personsHolder.getAllPersons(new PersonsHolder.PersonsCallback() {
-            @Override
-            public void onResult(List<Person> personsss) {
-                assertTrue(personsss != null);
-                assertTrue(!personsss.isEmpty());
-                assertTrue(personsss.size() == 20);
-                assertTrue(personsss.get(2) != null);
-                assertTrue(personsss.get(9).getId() == 10);
-                assertTrue(personsss.get(19).getId() == 20);
-            }
-        });*/
-    }
-
-    @Test
-    public void testGetPersons() {
-       /* Context context = getContext();
-        PersonGenerator personGenerator = new PersonGenerator(context);
-        List<Person> persons = personGenerator.createPersons(1);
-        assertTrue(persons != null);
-        assertTrue(!persons.isEmpty());
-        assertTrue(persons.size() == 10);
-        assertTrue(persons.get(2) != null);
-        assertTrue(persons.get(9).getId() == 20);
-        List<Person> persons2 = personGenerator.createPersons(-1);
-        assertTrue(persons2 != null);
-        assertTrue(persons2.isEmpty());
-        List<Person> persons3 = personGenerator.createPersons(2);
-        assertTrue(persons3 != null);
-        assertTrue(persons3.isEmpty());*/
-    }
-
-    @Test
-    public void testGetPerson(int id) {
-        //  PersonsHolder personsHolder = new PersonsHolder(getContext());
-    }
-
-    @Test
-    public void testSavePerson(Person person) {
-        // PersonsHolder personsHolder = new PersonsHolder(getContext());
-    }
-
-    @Test
     public void test_getPortionPersons() {
         API.INSTANCE.init(getContext());
         API.INSTANCE.refreshPersons(new SuccessCallback() {

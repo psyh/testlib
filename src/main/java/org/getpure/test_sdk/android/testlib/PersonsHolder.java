@@ -12,9 +12,6 @@ import java.util.concurrent.Callable;
 import bolts.Continuation;
 import bolts.Task;
 
-/**
- * Created by buyaroff1 on 05/01/16.
- */
 public class PersonsHolder {
 
 
@@ -70,7 +67,6 @@ public class PersonsHolder {
             public Object then(Task<Object> task) throws Exception {
                 RuntimeExceptionDao<Person, Integer> dao = DatabaseHelper.getInstance(context).getPersonDataDao();
                 callback.onResult(dao.queryForAll());
-                //  callback.onResult(null);
                 return null;
             }
         });
@@ -88,7 +84,6 @@ public class PersonsHolder {
             public Object then(Task<Object> task) throws Exception {
                 RuntimeExceptionDao<Person, Integer> dao = DatabaseHelper.getInstance(context).getPersonDataDao();
                 callback.onResult(dao.queryBuilder().offset(offset).limit(limit).query());
-                // callback.onResult(null);
                 return null;
             }
         });

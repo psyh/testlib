@@ -1,7 +1,6 @@
 package org.getpure.test_sdk.android.testlib;
 
 import android.app.Application;
-import android.location.Location;
 import android.test.ApplicationTestCase;
 
 import org.junit.Test;
@@ -31,10 +30,10 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
 
     @Test
     public void testNewLocation() {
-        Location l = new PersonGenerator(getContext()).getNewLocation();
+        PersonGenerator.Location l = new PersonGenerator(getContext()).getNewLocation();
         for (int i = 0; i < 10; i++) {
-            Location ll = new PersonGenerator(getContext()).getNewLocation();
-            float distance = l.distanceTo(ll);
+            PersonGenerator.Location ll = new PersonGenerator(getContext()).getNewLocation();
+            //float distance = l.distanceTo(ll);
 //            assertTrue(distance != 0);
             //assertFalse("none".equals(new PersonGenerator().getNewStatus(p).getStatus()));
         }

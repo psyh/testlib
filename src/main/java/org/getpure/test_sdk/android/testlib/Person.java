@@ -1,14 +1,9 @@
 package org.getpure.test_sdk.android.testlib;
 
 
-import android.location.Location;
-
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
 
-/**
- * Created by buyaroff1 on 04/01/16.
- */
 @DatabaseTable(tableName = "persons")
 public class Person {
 

@@ -1,16 +1,11 @@
 package org.getpure.test_sdk.android.testlib;
 
 import android.content.Context;
-import android.location.Location;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-
-/**
- * Created by buyaroff1 on 04/01/16.
- */
 public class PersonGenerator {
 
     private Context context;
@@ -84,7 +79,7 @@ public class PersonGenerator {
         if (id > 20 || id < 1) throw new Exception();
         Person data = new Person();
         data.setId(id);
-        data.setLocation(ORMLocation.getString(generateNewLocation()));
+        data.setLocation(getNewLocation().getString());
         int pos = id;
         data.setPhoto(photos_1[pos - 1]);
         data.setStatus("none");
@@ -109,7 +104,7 @@ public class PersonGenerator {
     }
 
     public Location generateNewLocation() {
-        Location l = new Location("");
+        Location l = new Location();
         double lat = 38.725126 + (double) (new Random().nextInt(5)) / 99;
         double lon = -9.150010 + (double) (new Random().nextInt(5)) / 99;
         lat = Math.floor(lat * 1000000) / 1000000;
@@ -120,8 +115,7 @@ public class PersonGenerator {
     }
 
     public Person changePerson(Person p) {
-        String location = ORMLocation.getString(getNewLocation());
-        p.setLocation(location);
+        p.setLocation(getNewLocation().getString());
         p.setStatus(getNewStatus(p).getStatus());
         return p;
     }
@@ -149,4 +143,30 @@ public class PersonGenerator {
             "http://cs307107.vk.me/v307107012/b36c/W9YH6T33M90.jpg",
             "http://cs305600.vk.me/v305600012/19acb/Tj6KB-ZcbiE.jpg"
     };
+
+   public class Location {
+
+        private double latitude;
+        private double longitude;
+
+        public double getLatitude() {
+            return latitude;
+        }
+
+        public void setLatitude(double latitude) {
+            this.latitude = latitude;
+        }
+
+        public double getLongitude() {
+            return longitude;
+        }
+
+        public void setLongitude(double longitude) {
+            this.longitude = longitude;
+        }
+
+        public String getString() {
+            return latitude + "," + longitude;
+        }
+    }
 }

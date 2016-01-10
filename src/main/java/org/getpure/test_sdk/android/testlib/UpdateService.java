@@ -2,20 +2,12 @@ package org.getpure.test_sdk.android.testlib;
 
 import android.content.Context;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-
-import java.lang.reflect.Type;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.Callable;
 
 import bolts.Task;
 
-/**
- * Created by buyaroff1 on 05/01/16.
- */
 public enum UpdateService {
 
     INSTANCE;
