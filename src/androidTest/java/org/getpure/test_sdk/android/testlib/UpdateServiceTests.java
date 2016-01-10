@@ -5,6 +5,9 @@ import android.test.ApplicationTestCase;
 
 import com.google.gson.Gson;
 
+import org.getpure.test_sdk.android.testlib.generator.PersonGenerator;
+import org.getpure.test_sdk.android.testlib.model.Person;
+import org.getpure.test_sdk.android.testlib.services.UpdateService;
 import org.junit.Test;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.getpure.test_sdk.android.testlib;
+package org.getpure.test_sdk.android.testlib.model;
 
 
 import com.j256.ormlite.field.DatabaseField;

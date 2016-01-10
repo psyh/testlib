@@ -1,4 +1,4 @@
-package org.getpure.test_sdk.android.testlib;
+package org.getpure.test_sdk.android.testlib.interfaces;
 
 public interface PersonsExtendedCallback {
     void onResult(String persons);

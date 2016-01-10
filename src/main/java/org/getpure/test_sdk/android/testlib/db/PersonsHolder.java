@@ -1,9 +1,12 @@
-package org.getpure.test_sdk.android.testlib;
+package org.getpure.test_sdk.android.testlib.db;
 
 import android.content.Context;
 
 import com.j256.ormlite.dao.RuntimeExceptionDao;
 import com.j256.ormlite.stmt.QueryBuilder;
+
+import org.getpure.test_sdk.android.testlib.interfaces.PersonsCallback;
+import org.getpure.test_sdk.android.testlib.model.Person;
 
 import java.sql.SQLException;
 import java.util.List;

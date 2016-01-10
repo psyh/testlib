@@ -1,6 +1,12 @@
-package org.getpure.test_sdk.android.testlib;
+package org.getpure.test_sdk.android.testlib.services;
 
 import android.content.Context;
+
+import org.getpure.test_sdk.android.testlib.util.Utils;
+import org.getpure.test_sdk.android.testlib.db.PersonsHolder;
+import org.getpure.test_sdk.android.testlib.generator.PersonGenerator;
+import org.getpure.test_sdk.android.testlib.interfaces.PersonsCallback;
+import org.getpure.test_sdk.android.testlib.model.Person;
 
 import java.util.List;
 import java.util.Random;
