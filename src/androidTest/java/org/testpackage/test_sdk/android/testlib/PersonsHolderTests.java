@@ -1,14 +1,14 @@
-package org.getpure.test_sdk.android.testlib;
+package org.testpackage.test_sdk.android.testlib;
 
 import android.app.Application;
 import android.content.Context;
 import android.test.ApplicationTestCase;
 
-import org.getpure.test_sdk.android.testlib.db.PersonsHolder;
-import org.getpure.test_sdk.android.testlib.generator.PersonGenerator;
-import org.getpure.test_sdk.android.testlib.interfaces.PersonsCallback;
-import org.getpure.test_sdk.android.testlib.interfaces.SuccessCallback;
-import org.getpure.test_sdk.android.testlib.model.Person;
+import org.testpackage.test_sdk.android.testlib.db.PersonsHolder;
+import org.testpackage.test_sdk.android.testlib.generator.PersonGenerator;
+import org.testpackage.test_sdk.android.testlib.interfaces.PersonsCallback;
+import org.testpackage.test_sdk.android.testlib.interfaces.SuccessCallback;
+import org.testpackage.test_sdk.android.testlib.model.Person;
 import org.junit.Test;
 
 import java.util.List;

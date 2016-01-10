@@ -1,10 +1,10 @@
-package org.getpure.test_sdk.android.testlib.util;
+package org.testpackage.test_sdk.android.testlib.util;
 
 import android.location.Location;
 
 import com.google.gson.Gson;
 
-import org.getpure.test_sdk.android.testlib.model.Person;
+import org.testpackage.test_sdk.android.testlib.model.Person;
 
 import java.util.List;
 

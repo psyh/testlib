@@ -1,13 +1,13 @@
-package org.getpure.test_sdk.android.testlib.generator;
+package org.testpackage.test_sdk.android.testlib.generator;
 
 import android.content.Context;
 
-import org.getpure.test_sdk.android.testlib.util.Utils;
-import org.getpure.test_sdk.android.testlib.db.PersonsHolder;
-import org.getpure.test_sdk.android.testlib.interfaces.PersonsCallback;
-import org.getpure.test_sdk.android.testlib.interfaces.PersonsExtendedCallback;
-import org.getpure.test_sdk.android.testlib.interfaces.SuccessCallback;
-import org.getpure.test_sdk.android.testlib.model.Person;
+import org.testpackage.test_sdk.android.testlib.util.Utils;
+import org.testpackage.test_sdk.android.testlib.db.PersonsHolder;
+import org.testpackage.test_sdk.android.testlib.interfaces.PersonsCallback;
+import org.testpackage.test_sdk.android.testlib.interfaces.PersonsExtendedCallback;
+import org.testpackage.test_sdk.android.testlib.interfaces.SuccessCallback;
+import org.testpackage.test_sdk.android.testlib.model.Person;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -102,7 +102,6 @@ public class PersonGenerator {
             personsHolder.getPortionPersons(offset, 10, new PersonsCallback() {
                 @Override
                 public void onResult(List<Person> persons) {
-
                     callback.onResult(Utils.toJson(persons));
                 }
             });

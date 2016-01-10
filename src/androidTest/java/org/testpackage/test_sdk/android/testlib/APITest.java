@@ -1,4 +1,4 @@
-package org.getpure.test_sdk.android.testlib;
+package org.testpackage.test_sdk.android.testlib;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
@@ -6,12 +6,12 @@ import android.test.ApplicationTestCase;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-import org.getpure.test_sdk.android.testlib.db.PersonsHolder;
-import org.getpure.test_sdk.android.testlib.interfaces.PersonsCallback;
-import org.getpure.test_sdk.android.testlib.interfaces.PersonsExtendedCallback;
-import org.getpure.test_sdk.android.testlib.interfaces.SuccessCallback;
-import org.getpure.test_sdk.android.testlib.model.Person;
-import org.getpure.test_sdk.android.testlib.services.UpdateService;
+import org.testpackage.test_sdk.android.testlib.db.PersonsHolder;
+import org.testpackage.test_sdk.android.testlib.interfaces.PersonsCallback;
+import org.testpackage.test_sdk.android.testlib.interfaces.PersonsExtendedCallback;
+import org.testpackage.test_sdk.android.testlib.interfaces.SuccessCallback;
+import org.testpackage.test_sdk.android.testlib.model.Person;
+import org.testpackage.test_sdk.android.testlib.services.UpdateService;
 import org.junit.Test;
 
 import java.lang.reflect.Type;

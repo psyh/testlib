@@ -1,4 +1,4 @@
-package org.getpure.test_sdk.android.testlib.db;
+package org.testpackage.test_sdk.android.testlib.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -10,7 +10,7 @@ import com.j256.ormlite.dao.RuntimeExceptionDao;
 import com.j256.ormlite.support.ConnectionSource;
 import com.j256.ormlite.table.TableUtils;
 
-import org.getpure.test_sdk.android.testlib.model.Person;
+import org.testpackage.test_sdk.android.testlib.model.Person;
 
 import java.sql.SQLException;
 

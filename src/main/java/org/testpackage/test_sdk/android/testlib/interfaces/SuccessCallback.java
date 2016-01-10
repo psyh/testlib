@@ -1,4 +1,4 @@
-package org.getpure.test_sdk.android.testlib.interfaces;
+package org.testpackage.test_sdk.android.testlib.interfaces;
 
 public interface SuccessCallback {
 
