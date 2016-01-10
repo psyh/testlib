@@ -1,4 +1,4 @@
-package org.getpure.test_sdk.android.testlib;
+package org.testpackage.test_sdk.android.testlib;
 
 import org.junit.Test;
 

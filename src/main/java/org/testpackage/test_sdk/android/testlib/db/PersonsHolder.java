@@ -62,7 +62,7 @@ public class PersonsHolder {
         Task.call(new Callable<Object>() {
             @Override
             public Object call() throws Exception {
-                Thread.sleep(100);
+                Thread.sleep(4000);
                 return null;
             }
         }).onSuccess(new Continuation<Object, Object>() {
@@ -79,7 +79,7 @@ public class PersonsHolder {
         Task.call(new Callable<Object>() {
             @Override
             public Object call() throws Exception {
-                Thread.sleep(100);
+                Thread.sleep(4000);
                 return null;
             }
         }).onSuccess(new Continuation<Object, Object>() {
