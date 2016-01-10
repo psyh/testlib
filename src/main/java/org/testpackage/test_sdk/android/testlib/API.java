@@ -13,8 +13,8 @@ public enum API {
 
     Context context;
 
-    public void init(Context context) {
-        this.context = context;
+    public void init(Context applicationContext) {
+        this.context = applicationContext;
         DatabaseHelper.getInstance(context);
         UpdateService.INSTANCE.startService(context);
     }
