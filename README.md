@@ -1,6 +1,6 @@
 This module imitate the work of API.
 The module can generate 20 different persons with random location.
-Example: ```{"id":15,"location":"38.76553,-9.119707","photo":"http://cs309123.vk.me/v309123012/9122/r7oKX3HSaIg.jpg","status":"none"}```
+Example: ```{"id":15,"location":"38.76553,-9.119707","photo":"https://goo.gl/zhbWp2","status":"none"}```
 
 After persons generation client can subscribe to persons updates. It will trigger Person Update Service it will send updates every 2 seconds until client unsubscribe.
 
