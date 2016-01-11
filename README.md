@@ -13,7 +13,7 @@
 10. Show "heart" icon above Person's photo if Person existing in result list got status "like". (Use any icon you can find)
 
 #### Required
-Do not change the code of the module
+Do not change the code of the module (even if you think you can do better)
 Data has to be locally saved
 
 #### Desirable
