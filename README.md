@@ -75,3 +75,8 @@ subscribeUpdates(UpdateServiceListener listener)
 ```
 unSubscribeUpdates()
 ```
+
+
+
+##### Recommendations
+*Clean Code: A Handbook of Agile Software Craftsmanship
