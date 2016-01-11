@@ -21,8 +21,10 @@
 10. Show "heart" icon above Person's photo if Person existing in result list got status "like". (Use any icon you can find)
 
 #### Required
-Do not change the code of the module (even if you think you can do better)
-Data has to be locally saved
+1. Do not change the code of the module (even if you think you can do better)
+2. Data has to be locally saved
+3. minSdkVersion: 16
+4. targetSdkVersion: 23+
 
 #### Desirable
 to demonstrate your skills in using
