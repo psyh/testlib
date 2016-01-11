@@ -8,6 +8,10 @@
 7. If person is showing now in results list has already status "like" and user pushed "like" button  show MATCH Screen.
 8. If some person got status "removed" - show system notification without sound and vibration. 
 
+### Test Application Scheme
+
+![alt text](https://raw.githubusercontent.com/psyh/testlib/master/scheme.png "Test Scheme")
+
 ### Module description
 This module imitate the work of API.
 The module can generate 20 different persons with random location.
