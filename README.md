@@ -1,5 +1,7 @@
 ### Task description
 
+0. First of all send me email with time estimation and delivery dead-line.
+
 #### Essential
 1. Don't worry about appearance and design, use default android UI components.
 2. Add module https://github.com/psyh/testlib
@@ -27,9 +29,11 @@ to demonstrate your skills in using
 
 
 #### Will be Perfect (but not required)
-1. DI
+1. MVP
+2. DI
 2. TDD
 3. RX
+4. Attractive UI
 
 
 ### Test Application Scheme
