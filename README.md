@@ -1,5 +1,7 @@
 ### Task description
-1. Doesn't matter how it will look like. Use default android UI components.
+
+#### Essential
+1. Don't worry about appearance and design, use default android UI components.
 2. Add module https://github.com/psyh/testlib
 3. Use API.class to use the module as API-emulator. 
 4. API generate 20 results and start Update Service. You have to initialisate it and generate results. See below.
@@ -7,6 +9,25 @@
 6. If person user liked befor got status "like" you have MATCH - show system notification with sound and vibration. 
 7. If person is showing now in results list has already status "like" and user pushed "like" button  show MATCH Screen.
 8. If some person got status "removed" - show system notification without sound and vibration. 
+9. Use Google Maps to show markers - small person's photos to show person's location. Don't forget update location of Person that was updated by API.
+10. Show "heart" icon above Person's photo if Person existing in result list got status "like". (Use any icon you can find)
+
+
+#### Desirable
+to demonstrate your skills in
+
+1. using activities, fragments and its lifecycles.
+2. using multithreading
+3. using adapters
+4. using resources (layouts, styles etc)
+5. using maps
+
+
+#### Perfect (not required)
+1. DI
+2. TDD
+3. RX
+
 
 ### Test Application Scheme
 
