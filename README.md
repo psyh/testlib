@@ -1,6 +1,12 @@
 ### Task description
 
-0. First of all send me email with time estimation and delivery dead-line.
+#### Before you start
+1. Send me email with time estimation (hours) and delivery dead-line (real date and time).
+
+#### After you finish
+1. Send me signed APK file.
+3. Upload source code on you Git (any repository) account and provide link.
+2. Notice how many hours you have spent indeed.
 
 #### Essential
 1. Don't worry about appearance and design, use default android UI components.
