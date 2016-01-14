@@ -57,23 +57,23 @@ After persons generation client can subscribe to persons updates. It will trigge
 
 Use only API.class to communicate with this module. 
 
-1. Initialisation is required:
+ 1.  Initialisation is required:
 ```
 API.INSTANCE.init(getApplicationContext());
 ```
-2. Generate persons base. It will clear all previous results:
+ 2.  Generate persons base. It will clear all previous results:
 ```
 refreshPersons(SuccessCallback successCallback)
 ```
-3. Get 10 results. (Set page-num. 0, 1,...):
+ 3.  Get 10 results. (Set page-num. 0, 1,...):
 ```
 getPersons(int page, PersonsExtendedCallback callback)
 ```
-4. Subscribe for updates:
+ 4.  Subscribe for updates:
 ```
 subscribeUpdates(UpdateServiceListener listener)
 ```
-4. Unsubscribe :
+ 5.  Unsubscribe :
 ```
 unSubscribeUpdates()
 ```
