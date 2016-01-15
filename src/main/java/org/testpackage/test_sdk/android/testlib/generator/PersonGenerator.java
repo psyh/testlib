@@ -41,12 +41,16 @@ public class PersonGenerator {
     }
 
     private int getIntStatus(int except1, int except2) {
-        int res = new Random().nextInt(status.length);
-        if (res == except1 || res == except2) return getIntStatus(except1, except2);
-        if (res == 1) return (isReally(2)) ? res : getIntStatus(except1, except2);
-        if (res == 2) return (isReally(12)) ? res : getIntStatus(except1, except2);
-        if (res == 3) return (isReally(25)) ? res : getIntStatus(except1, except2);
-        else return res;
+        try {
+            int res = new Random().nextInt(status.length);
+            if (res == except1 || res == except2) return getIntStatus(except1, except2);
+            if (res == 1) return (isReally(2)) ? res : getIntStatus(except1, except2);
+            if (res == 2) return (isReally(12)) ? res : getIntStatus(except1, except2);
+            if (res == 3) return (isReally(25)) ? res : getIntStatus(except1, except2);
+            else return res;
+        } catch (Exception e) {
+            return 3;
+        }
     }
 
     private boolean isReally(int ver) {
