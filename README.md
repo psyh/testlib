@@ -9,16 +9,15 @@
 2. Notice how many hours you have spent indeed.
 
 #### Essential
-1. Don't worry about appearance and design, use default android UI components.
-2. Add module https://github.com/psyh/testlib
-3. Use API.class to use the module as API-emulator. 
-4. API generate 20 results and start Update Service. You have to initialisate it and generate results. See below.
-5. Remove results from list of results when user pushed "like", "dislike" buttons or Person got "removed" status.
-6. If some person got status "like" and user liked this person before - show system notification with sound and vibration - This is MATCH. 
-7. If person is in results list now has already status "like" and user pushed "like" button show MATCH Screen.
-8. If some person got status "removed" - show system notification without sound and vibration. 
-9. Use Google Maps to show markers - small person's photos to show person's location. Don't forget update location of Person that was updated by API.
-10. Show "heart" icon above Person's photo if Person existing in result list got status "like". (Use any icon you can find)
+1. Add module https://github.com/psyh/testlib to your project
+2. Use API.class to use the module as API-emulator. 
+3. API generate 20 results and start Update Service. You have to initialisate it and generate results. See below.
+4. Remove results from list of results when user pushed "like", "dislike" buttons or Person got "removed" status.
+5. If some person got status "like" and user liked this person before - show system notification with sound and vibration - This is MATCH. 
+6. If person is in results list now has already status "like" and user pushed "like" button show MATCH Screen.
+7. If some person got status "removed" - show system notification without sound and vibration. 
+8. Use Google Maps to show markers - small person's photos to show person's location. Don't forget update location of Person that was updated by API.
+9. Show "heart" icon above Person's photo if Person existing in result list got status "like". (Use any icon you can find)
 
 #### Required
 1. Do not change the code of the module (even if you think you can do better)
